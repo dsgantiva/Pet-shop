@@ -1,0 +1,7 @@
+all:	cliente	servidor
+
+cliente: cliente.c
+	gcc cliente -o cliente.c
+
+servidor: servidor.c
+	gcc servidor -pthread -o  servidor.c
